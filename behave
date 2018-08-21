@@ -1,0 +1,2 @@
+Behave la package cua django nen khi init project 
+pipenv install behave-django
