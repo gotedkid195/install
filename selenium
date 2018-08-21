@@ -1,0 +1,14 @@
+# Install Chrome. 
+
+sudo apt-get update 
+sudo apt-get install google-chrome-stable
+
+# Install ChromeDriver. 
+Dau tien download drive chrom 
+https://selenium-python.readthedocs.io/installation.html
+
+Copy driver chrom ra ngoai home unzip 
+
+sudo mv -f ~/chromedriver /usr/local/bin/chromedriver
+sudo chown root:root /usr/local/bin/chromedriver
+sudo chmod 0755 /usr/local/bin/chromedriver
