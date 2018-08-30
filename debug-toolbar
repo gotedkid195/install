@@ -1,4 +1,4 @@
-install django-debug-toolbar
+pipenv install django-debug-toolbar
 
 //INSTALLED_APPS = [
 //   'django.contrib.staticfiles',
