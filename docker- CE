@@ -32,3 +32,21 @@ sudo apt-get install docker-ce
 
 sudo docker run Helloww
 ket qua hien thi Helloww la ok
+
+
+Khi sử dụng, thì docker đóng gói và cài đặt môi trường cho chương trình rất là nhanh.
+Giả sử như trước đây mình cần setup một môi trường cho hệ thống yêu cầu phải dùng cùng lúc 4 loại 
+database mongo, postgresql, redis, mysql, thay vì phải cài và chạy cho từng con, 
+mình chỉ cần chạy một lệnh docker-compose up vậy là xong =))
+
+Vậy docker có những ưu điểm gì?
+Giả lập môi trường trên server ở dưới máy local: 
+Bình thường,khi một dự án run dưới local chạy demo thì ngon vãi nhưng khi deploy lên server thì sập vỡ mặt
+
+Trải nghiệm và dùng thử một hệ điều hành mới:
+Đơn giản thôi,không cần phải dùng virtua studio làm gì cả docker là đủ rùi =))
+
+Lưu trữ và chia sẻ setup môi trường dự án cho nhóm: 
+Cái nè hay nè, trước đây khi handover dự án, phần setup môi trường cho dự án rất lằng nhằng 
+và phải lưu lại nhiều doc hướng dẫn là lưu ý khi cài đặt môi trường,
+nhưng giờ đây, mình chỉ cần share container của docker là đã giảm được quá nửa document setup môi trường rùi
