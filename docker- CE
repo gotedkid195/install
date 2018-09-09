@@ -33,6 +33,13 @@ sudo apt-get install docker-ce
 sudo docker run Helloww
 ket qua hien thi Helloww la ok
 
+Install Virtua box (https://www.virtualbox.org/wiki/Linux_Downloads)
+
+docker-machine create default
+
+docker-machine env default
+
+eval "$(docker-machine env default)"
 
 Khi sử dụng, thì docker đóng gói và cài đặt môi trường cho chương trình rất là nhanh.
 Giả sử như trước đây mình cần setup một môi trường cho hệ thống yêu cầu phải dùng cùng lúc 4 loại 
