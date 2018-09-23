@@ -7,3 +7,6 @@ pip3 install --user pipenv
 echo "PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
 
 source ~/.bashrc
+
+Install pipenv for Ubunto 16.04
+https://github.com/pypa/pipenv
