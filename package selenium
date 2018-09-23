@@ -7,7 +7,7 @@ sudo apt-get install google-chrome-stable
 Dau tien download drive chrom 
 https://selenium-python.readthedocs.io/installation.html
 
-Copy driver chrom ra ngoai home unzip 
+Copy driver chrom ra ngoai home => unzip => sua ten file thanh chromedriver
 
 sudo mv -f ~/chromedriver /usr/local/bin/chromedriver
 sudo chown root:root /usr/local/bin/chromedriver
