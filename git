@@ -1,4 +1,10 @@
 B1 install git 
+sudo apt-get update
+sudo apt-get install git
+
+kiem tra git --version neu cai chua duoc thi chay lenh: sudo apt-get -f install xong sudo apt-get install git
+
+
 B2 Connect SSH
 https://help.github.com/articles/checking-for-existing-ssh-keys/
 https://www.youtube.com/watch?v=BBzHl_j86bc
