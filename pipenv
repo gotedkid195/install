@@ -1,4 +1,4 @@
-Install pipenv for Ubunto 18.04
+Install pipenv for Ubunto 16.04 & 18.04
 
 sudo apt install python3-pip python3-dev
 
@@ -8,5 +8,6 @@ echo "PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
 
 source ~/.bashrc
 
-Install pipenv for Ubunto 16.04
+kiem tra lai  pipenv --version ket qua: pipenv, version 2018.7.1 la ok
+
 https://github.com/pypa/pipenv
