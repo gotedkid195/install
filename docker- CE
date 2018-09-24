@@ -35,6 +35,9 @@ ket qua hien thi Helloww la ok
 
 Install Virtua box (https://www.virtualbox.org/wiki/Linux_Downloads)
 
+Tiep tuc intall docker machine theo link 
+https://docs.docker.com/machine/install-machine/
+
 docker-machine create default
 
 docker-machine env default
