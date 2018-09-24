@@ -39,6 +39,7 @@ Tiep tuc intall docker machine theo link
 https://docs.docker.com/machine/install-machine/
 
 docker-machine create default
+Se thay: Starting "default"...  Machine "default" is already running.
 
 docker-machine env default
 
