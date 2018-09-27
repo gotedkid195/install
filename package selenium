@@ -6,6 +6,7 @@ sudo apt-get install google-chrome-stable
 # Install ChromeDriver. 
 Dau tien download drive chrom 
 https://selenium-python.readthedocs.io/installation.html
+https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 Copy driver chrom ra ngoai home => unzip => sua ten file thanh chromedriver
 
