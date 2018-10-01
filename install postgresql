@@ -1,0 +1,22 @@
+sudo apt-get update
+
+sudo apt-get install postgresql postgresql-contrib
+
+service postgresql
+
+service postgresql status
+
+sudo su postgres
+
+psql
+
+postgres=# ALTER USER postgres WITH PASSWORD 'teslateq';
+ALTER ROLE
+
+postgres=# CREATE USER teslateq WITH PASSWORD 'teslateq';
+CREATE ROLE
+
+postgres=# ALTER USER teslateq WITH SUPERUSER ;
+
+postgres=# \du
+
