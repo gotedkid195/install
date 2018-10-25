@@ -1,0 +1,5 @@
+https://jee-appy.blogspot.com/2017/01/deply-django-with-nginx.html
+
+
+Note:
+If error 403 -> Chmod -R 777 /root
