@@ -1,3 +1,4 @@
+Đe thoat \q or exit() or logout 
 sudo apt-get update
 
 sudo apt-get install postgresql postgresql-contrib
@@ -19,4 +20,9 @@ CREATE ROLE
 postgres=# ALTER USER teslateq WITH SUPERUSER ;
 
 postgres=# \du
+
+postgres=# \l
+
+postgres@ubuntu:~$ createdb --owner db_user django_db
+postgres@ubuntu:~$ logout
 
