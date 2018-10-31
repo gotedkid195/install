@@ -1,5 +1,7 @@
+
 https://jee-appy.blogspot.com/2017/01/deply-django-with-nginx.html
 
+http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/
 
 Note:
-If error 403 -> Chmod -R 777 /root
+If error 403 -> chmod -R 777 /root
