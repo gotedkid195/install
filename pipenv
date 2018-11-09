@@ -11,3 +11,7 @@ source ~/.bashrc
 kiem tra lai  pipenv --version ket qua: pipenv, version 2018.7.1 la ok
 
 https://github.com/pypa/pipenv
+
+gioi thieu su dung pipevn 
+
+https://www.ioannispoulakas.com/2018/01/28/manage-your-python-dependencies-with-pipenv/
