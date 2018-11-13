@@ -1,0 +1,3 @@
+  celery -A "name_project" -l info worker
+ 
+ celery -A iteslateq -l info worker
