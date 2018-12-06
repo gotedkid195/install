@@ -26,3 +26,12 @@ postgres=# \l
 postgres@ubuntu:~$ createdb --owner db_user django_db
 postgres@ubuntu:~$ logout
 
+postgres-# ^Z
+[1]+  Stopped                 psql
+postgres@iteslateq:~$ loguot
+bash: loguot: command not found
+postgres@iteslateq:~$ logout
+bash: logout: not login shell: use `exit'
+postgres@iteslateq:~$ exit
+exit
+(iteslateq-platform) root@iteslateq:/app/iteslateq-platform# 
