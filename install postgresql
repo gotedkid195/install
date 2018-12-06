@@ -7,9 +7,9 @@ service postgresql
 
 service postgresql status
 
-sudo su postgres
+(iteslateq-platform) root@iteslateq:/app# sudo su postgres
 
-psql
+postgres@iteslateq:~$ psql
 
 postgres=# ALTER USER postgres WITH PASSWORD 'teslateq';
 ALTER ROLE
