@@ -135,5 +135,5 @@ postgres=# ^Z
 [3]+  Stopped                 psql
 postgres@iteslateq:/app/iteslateq-platform$ 
 
-postgres=# DROP DATABASE [IF EXISTS] name;
+postgres=# DROP DATABASE teslateq;
 
