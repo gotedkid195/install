@@ -1,0 +1,3 @@
+sudo apt-get install python-pip
+khi do co the chay lenh
+sudo pip install pipenv 
