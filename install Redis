@@ -1,5 +1,4 @@
  
  1937  sudo apt-get install redis-server
  1938  ps aux | grep redis
- 1939  netstat -ltnpu
- 1940  sudo netstat -ltnpu
+ 1939  netstat -ltnpu Neu khong duoc thi them sudo: sudo netstat -ltnpu
