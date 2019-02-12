@@ -1,0 +1,15 @@
+If you are using Django with Python 2, type:
+
+  sudo apt-get install python-dev
+
+If you are using Python 3, type:
+
+  sudo apt-get install python3-dev
+
+If you are using Python 2, type:
+
+  sudo -H pip install uwsgi
+
+If you are using Python 3, type:
+
+  sudo -H pip3 install uwsgi
