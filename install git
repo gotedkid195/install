@@ -15,7 +15,7 @@ $ ls
 authorized_keys2  id_dsa       known_hosts
 config            id_dsa.pub
 
-$ ssh-keygen
+$ ssh-keygen                             (Enter cho qua)
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/schacon/.ssh/id_rsa):
 Created directory '/home/schacon/.ssh'.
