@@ -27,8 +27,8 @@ cd /tmp/Python37/Python-3.7.0
 ./configure --enable-optimizations
 sudo make altinstall
 
-hien thi success la ok
-
+sau khi chay tren xong,thay hien thi Successfully installed pip-10.0.1 setuptools-39.0.1  la ok
+     
 kiem tra version 
 python --version
 Python 2.7.12
