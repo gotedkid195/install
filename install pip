@@ -1,3 +1,14 @@
+
+sudo apt-get update
+
+If you are building your Django projects with Python 2, type:
+
 sudo apt-get install python-pip
+
+If you are using Python 3, type:
+
+sudo apt-get install python3-pip
+
 khi do co the chay lenh
+
 sudo pip install pipenv 
