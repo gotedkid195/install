@@ -34,68 +34,6 @@ postgres@iteslateq:~$ exit
 exit
 (iteslateq-platform) root@iteslateq:/app/iteslateq-platform# 
 
-
-
-postgres@iteslateq:/app/iteslateq-platform$ createuser --interactive -P
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LC_PAPER = "vi_VN",
-	LC_ADDRESS = "vi_VN",
-	LC_MONETARY = "vi_VN",
-	LC_NUMERIC = "vi_VN",
-	LC_TELEPHONE = "vi_VN",
-	LC_IDENTIFICATION = "vi_VN",
-	LC_MEASUREMENT = "vi_VN",
-	LC_TIME = "vi_VN",
-	LC_NAME = "vi_VN",
-	LANG = "en_US.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
-Enter name of role to add: iteslateq
-Enter password for new role: 
-Enter it again: 
-Shall the new role be a superuser? (y/n) n
-Shall the new role be allowed to create databases? (y/n) n
-Shall the new role be allowed to create more new roles? (y/n) n
-postgres@iteslateq:/app/iteslateq-platform$ createdb --owner iteslateq iteslateq
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LC_PAPER = "vi_VN",
-	LC_ADDRESS = "vi_VN",
-	LC_MONETARY = "vi_VN",
-	LC_NUMERIC = "vi_VN",
-	LC_TELEPHONE = "vi_VN",
-	LC_IDENTIFICATION = "vi_VN",
-	LC_MEASUREMENT = "vi_VN",
-	LC_TIME = "vi_VN",
-	LC_NAME = "vi_VN",
-	LANG = "en_US.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
-postgres@iteslateq:/app/iteslateq-platform$ psql
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LC_PAPER = "vi_VN",
-	LC_ADDRESS = "vi_VN",
-	LC_MONETARY = "vi_VN",
-	LC_NUMERIC = "vi_VN",
-	LC_TELEPHONE = "vi_VN",
-	LC_IDENTIFICATION = "vi_VN",
-	LC_MEASUREMENT = "vi_VN",
-	LC_TIME = "vi_VN",
-	LC_NAME = "vi_VN",
-	LANG = "en_US.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
-psql (9.5.14)
-Type "help" for help.
-
 postgres=# \du
                                    List of roles
  Role name |                         Attributes                         | Member of 
