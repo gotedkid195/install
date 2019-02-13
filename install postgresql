@@ -3,9 +3,7 @@ sudo apt-get update
 
 sudo apt-get install postgresql postgresql-contrib
 
-service postgresql
-
-service postgresql status
+service postgresql status       #Kiem tra trang thai hoat dong
 
 (iteslateq-platform) root@iteslateq:/app# sudo su postgres
 
