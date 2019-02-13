@@ -30,6 +30,17 @@ tcp6       0      0 ::1:5432                :::*                    LISTEN
 
 (iteslateq-platform) root@iteslateq:/app# sudo su postgres
 
+postgres@iteslateq:~$ createuser --interactive -P
+Enter name of role to add: teslateq
+Enter password for new role: teslateq
+Enter it again: teslateq
+Shall the new role be a superuser? (y/n) n
+Shall the new role be allowed to create databases? (y/n) n
+Shall the new role be allowed to create more new roles? (y/n) n
+postgres@iteslateq:~$ createdb --owner teslateq teslateq
+ostgres@iteslateq:~$ logout
+
+
 postgres@iteslateq:~$ psql
 
 postgres=# ALTER USER postgres WITH PASSWORD 'teslateq';
