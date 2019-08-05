@@ -7,7 +7,18 @@ kiem tra git --version neu cai chua duoc thi chay lenh: sudo apt-get -f install 
 
 B2 Connect SSH
 Kiêm tra trên máy đa có key ssh chưa ?
-ls -al ~/.ssh
+$ ls -al ~/.ssh
+total 40
+drwx------  2 root root 4096 Jul  3 11:23 .
+drwx------ 14 root root 4096 Aug  5 01:59 ..
+-rw-------  1 root root 4949 Jul 23 08:21 authorized_keys
+-rw-r--r--  1 root root   48 Feb 13 07:30 config
+-rw-------  1 root root 3247 Feb 13 07:26 github
+-rw-r--r--  1 root root  745 Feb 13 07:26 github.pub
+-rw-------  1 root root 1679 Feb 12 07:34 id_rsa
+-rw-r--r--  1 root root  393 Feb 12 07:34 id_rsa.pub
+-rw-r--r--  1 root root 1768 Feb 13 08:45 known_hosts
+ ==> Đã có ssh key => sẽ tạo xóa và tạo mới key ssh
 
 Lấy key shh
 $ cd ~/.ssh
@@ -24,14 +35,27 @@ Enter same passphrase again:
 Your identification has been saved in /home/schacon/.ssh/id_rsa.
 Your public key has been saved in /home/schacon/.ssh/id_rsa.pub.
 The key fingerprint is:
-d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 schacon@mylaptop.local
+d0:82:24:88:d5:f7:bb::da:9b:e3:00:67:n4:6m:99 schacon@mylaptop.local
+The key's randomart image is:
++---[RSA 2048]----+
+|               ..|
+|               o.|
+|         +     ..|
+|   . .  + = . +o |
+|. + o  .S+ +o    |
+| ..= .o  .o      |
+|+*o o+.   .o   . |
+|+*o+*..     ..   |
+|oE*=o=.     .    |
++----[SHA256]-----+
+
 
 $ cat ~/.ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
-GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3
+ssh-rsa AAAAB3NzaC1yc2EAAAABJpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
+GPl+nafzlHDTYW7hdI4yDhgHhyKFMF79FHMgfffn7UihOlELEVf4h9lFX5QVkbPppSwg0cda3
 Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XA
 t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/En
-mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
+mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Zvsdvbsdb3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
 NrRFi9wrf+M7Q== schacon@mylaptop.local
 
 Coppy key pass vào mục setting ssh trên github -> xong
